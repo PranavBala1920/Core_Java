@@ -10,58 +10,58 @@ public class SwitchCase {
 
 		switch (month) {
 			case 1:
-				monthname = "jan";
+				monthname = "January";
 				break;
 
 			case 2:
-				monthname = "feb";
+				monthname = "February";
 				break;
 
 			case 3:
-				monthname = "march";
+				monthname = "March";
 				break;
 
 			case 4:
-				monthname = "april";
+				monthname = "April";
 				break;
 
 			case 5:
-				monthname = "may";
+				monthname = "May";
 				break;
 
 			case 6:
-				monthname = "june";
+				monthname = "June";
 				break;
 
 			case 7:
-				monthname = "july";
+				monthname = "July";
 				break;
 
 			case 8:
-				monthname = "august";
+				monthname = "August";
 				break;
 
 			case 9:
-				monthname = "september";
+				monthname = "September";
 				break;
 
 			case 10:
-				monthname = "octomber";
+				monthname = "Octomber";
 				break;
 
 			case 11:
-				monthname = "november";
+				monthname = "November";
 				break;
 
 			case 12:
-				monthname = "december";
+				monthname = "December";
 				break;
 
 			default:
-				monthname = "Give Corrct month details";
+				monthname = "month details is wrong";
 		}
 
 		System.out.print(monthname);
 	}
-	
+
 }
