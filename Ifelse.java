@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Ifelse {
+public class IfElse {
 
 	public static void main(String[] args) {
 		int age = 18;

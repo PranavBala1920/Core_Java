@@ -25,13 +25,13 @@ public class StringMethods {
 		System.out.println(s1.equals(s2)); // True because content is same    
 		if (s1.equals(s3)) {
 			System.out.println("Both strings are equal");
-		} else {			
+		} else {
 			System.out.println("Both strings are unequal");
+		}
 	}
-}
 
 	public static void main(String[] args) {
-	StringMethods stringmethods = new StringMethods();
+		StringMethods stringmethods = new StringMethods();
 		stringmethods.charAt();
 		stringmethods.concate();
 		stringmethods.equal();

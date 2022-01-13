@@ -8,7 +8,7 @@ public class WrapperClass {
 		if (value == intergerTwo) {
 			System.out.println("Value is same");
 		}
-		System.out.println(value + "," + integer + "," + intergerTwo);
+		System.out.println(value + " , " + integer + " , " + intergerTwo);
 	}
 
 }
