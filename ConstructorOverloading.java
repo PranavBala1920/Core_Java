@@ -1,24 +1,23 @@
 public class ConstructorOverloading {
 
 	private String name;
-	private boolean bool;
+	private boolean flag;
 
 	ConstructorOverloading() {
 		name = "Defalut Constructor";
 		System.out.println(name);
 	}
 
-	ConstructorOverloading(String Name, boolean bool2) {
-		this.name = Name;
-		this.bool = bool2;
+	ConstructorOverloading(String name, boolean flag) {
+		this.name = name;
+		this.flag = flag;
 	}
 
 	void getname() {
-		System.out.println("Name and number is: " + name + bool);
+		System.out.println("Name and Number is: " + name + flag);
 	}
 
 	public static void main(String[] args) {
-
 		ConstructorOverloading overloading = new ConstructorOverloading();
 		ConstructorOverloading overloading1 = new ConstructorOverloading("pranav", true);
 		overloading1.getname();

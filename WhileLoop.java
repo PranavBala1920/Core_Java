@@ -13,8 +13,7 @@ public class WhileLoop {
 			}
 			number++;
 		}
-
-		System.out.print("Program end");
+		System.out.print("Program End");
 	}
 
 }

@@ -9,7 +9,6 @@ public class Constructor {
 	}
 
 	public static void main(String[] args) {
-
 		Constructor constructor = new Constructor();
 		Constructor constructor2 = new Constructor();
 		constructor.display();

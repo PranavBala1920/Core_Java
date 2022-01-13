@@ -60,7 +60,6 @@ public class SwitchCase {
 			default:
 				monthname = "month details is wrong";
 		}
-
 		System.out.print(monthname);
 	}
 

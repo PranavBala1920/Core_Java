@@ -5,17 +5,16 @@ class Car {
 
 class Bike extends Car {
 
-	void speedtest() {
+	void speedTest() {
 		System.out.println("Bike speed " + super.speed);
 	}
 }
 
-public class Finalclass {
+public class FinalClass {
 
 	public static void main(String[] args) {
-
 		Bike bike = new Bike();
-		bike.speedtest();
+		bike.speedTest();
 	}
 	
 }
