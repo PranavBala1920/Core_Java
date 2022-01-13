@@ -2,7 +2,7 @@ import javax.swing.JFrame;
 import javax.swing.WindowConstants;
 import javax.swing.JLabel;
 
-public class Mainframe extends JFrame {
+public class MainFrame extends JFrame {
 
 	public void init() {
 		setTitle("Hello world");
