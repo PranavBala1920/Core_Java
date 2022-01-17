@@ -12,6 +12,7 @@ class Area {
 		int area = length * width;
 		System.out.println("Area is :- " + area);
 	}
+	
 }
 
 public class Encapsulation {

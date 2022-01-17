@@ -1,29 +1,33 @@
 class Shape {
 	
 	void draw() {
-		System.out.println("drawing...");
+		System.out.println("Drawing...");
 	}
+	
 }
 
 class Rectangle extends Shape {
 	
 	void draw() {
-		System.out.println("drawing rectangle...");
+		System.out.println("Drawing Rectangle...");
 	}
+	
 }
 
 class Circle extends Shape {
 	
 	void draw() {
-		System.out.println("drawing circle...");
+		System.out.println("Drawing Circle...");
 	}
+	
 }
 
 class Triangle extends Shape {
 	
 	void draw() {
-		System.out.println("drawing triangle...");
+		System.out.println("Drawing Triangle...");
 	}
+	
 }
 
 public class MethodOverRidding {

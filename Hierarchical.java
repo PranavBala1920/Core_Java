@@ -1,34 +1,38 @@
-class Java{
+class Java {
 	
-	void java(){
-		System.out.println("Java is Object Oriented Language");
+	void java() {
+		System.out.println("Java is based On Object Oriented Language");
 	}
+	
 }
 
-class JavaScript extends Java{
+class JavaScript extends Java {
 	
-	void javascript(){
-		System.out.println("Forntend or Backend We use JavaScript");
+	void javascript() {
+		System.out.println("We Used JavaScript In React Native");
 	}
+	
 }
 
-class Android extends Java{
+class Android extends Java {
 	
-	void android(){
-		System.out.println("Android use is Application Develeopment");
+	void android() {
+		System.out.println("Android used In Application Develeopment");
 	}
+	
 }
 
-class Python extends Java{
+class Python extends Java {
 	
-	void python(){
-		System.out.println("Python use in GUI");
+	void python() {
+		System.out.println("Python used in GUI");
 	}
+	
 }
 
-public class Hierarchical{
+public class Hierarchical {
 	
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		JavaScript javascript = new JavaScript();
 		Android android = new Android();
 		Python python = new Python();

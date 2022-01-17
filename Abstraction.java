@@ -9,6 +9,7 @@ abstract class Bike {
 	void topSpeed() {
 		System.out.println("Speed is 120kmpl");
 	}
+	
 }
 
 class Hero extends Bike {
@@ -16,6 +17,7 @@ class Hero extends Bike {
 	void run() {
 		System.out.println("Bike is Running!");
 	}
+	
 }
 
 class Abstraction {

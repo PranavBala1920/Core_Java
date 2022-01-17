@@ -2,6 +2,7 @@ class Car {
 
 	int price = 10;
 	int interest = 20;
+	
 }
 
 class HondaCity extends Car {
@@ -12,6 +13,7 @@ class HondaCity extends Car {
 		int carPrice = price + interest;
 		System.out.println("Total Car Price is :- " + carPrice);
 	}
+	
 }
 
 class Audi extends HondaCity {
@@ -19,6 +21,7 @@ class Audi extends HondaCity {
 	void showValue() {
 		System.out.println("Valuation of Car :- " + value);
 	}
+	
 }
 
 public class MultiLevel {
