@@ -1,7 +1,7 @@
 class Java {
 	
 	void java() {
-		System.out.println("Java is based On Object Oriented Language");
+		System.out.println("Java is based on object oriented Language");
 	}
 	
 }
@@ -9,7 +9,7 @@ class Java {
 class JavaScript extends Java {
 	
 	void javascript() {
-		System.out.println("We Used JavaScript In React Native");
+		System.out.println("We used javaScript in React Native");
 	}
 	
 }
@@ -17,7 +17,7 @@ class JavaScript extends Java {
 class Android extends Java {
 	
 	void android() {
-		System.out.println("Android used In Application Develeopment");
+		System.out.println("Android used in application Development");
 	}
 	
 }
