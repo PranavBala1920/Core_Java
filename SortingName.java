@@ -11,7 +11,7 @@ public class SortingName {
 
 		Collections.sort(listOne);
 
-		for (String fruit: list1){
+		for (String fruit: list1) {
 			System.out.println(fruit);
 		}
 
@@ -25,7 +25,7 @@ public class SortingName {
 
 		Collections.sort(listTwo);
 
-		for (Integer number: list2){
+		for (Integer number: list2) {
 			System.out.println(number);	
 		}
 	}

@@ -10,7 +10,7 @@ public class ArraySet {
 		set.add("Four");
 		set.add("Four");
 
-		for (String numbers: set{
+		for (String numbers: set) {
 			System.out.println(numbers);	
 		}
 	}
