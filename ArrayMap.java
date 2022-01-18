@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ArrayMap{
+public class ArrayMap {
 
 	public static void main(String args[]) {
 		

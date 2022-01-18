@@ -1,4 +1,4 @@
-public class MultiDimensionArray{
+public class MultiDimensionArray {
 	
 	public static void main(String[] args) {
 		int multidimension[][] = { {5, 5, 5}, {7, 8, 8}, {8, 9, 9} };
