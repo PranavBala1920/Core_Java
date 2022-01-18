@@ -1,6 +1,7 @@
 interface Shapes {
 
 	void main(); //interface methods cannot have body {}
+
 }
 
 class Circle implements Shaps {
