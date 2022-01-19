@@ -24,7 +24,7 @@ class Movie implements Comparable < Movie > {
 	public int compareTo(Movie movie) {
 		return this.year - movie.year;
 	}
-
+	
 }
 
 public class ListComparable {
