@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 
 class Movie implements Comparable < Movie > {
+    
     private double rating;
     private String name;
     private int year;
