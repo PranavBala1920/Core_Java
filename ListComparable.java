@@ -11,7 +11,6 @@ class Movie implements Comparable < Movie > {
 		this.year = year;
 	}
 	
-	//Calling getter method
 	public String getmovie() {
 		return movie;
 	}

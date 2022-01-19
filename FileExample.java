@@ -6,7 +6,6 @@ import java.io.IOException;
 public class FileExample {
 
 	public static void main(String[] args) {
-
 		try {
 			String data = "Hey my name is Pranav Barot. I am 21 years old";
 			File file = new File("C:\\Users\\Pranav\\OneDrive\\Desktop\\New folder\\File\\abc.txt");

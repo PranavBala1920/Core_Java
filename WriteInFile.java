@@ -5,7 +5,6 @@ import java.nio.file.Path;
 public class WriteInFile {
 
 	public static void main(String[] args) throws IOException {
-
 		String text = "My name is Pranav. I am 21 years old";
 
 		Path filename = Path.of("C:\\Users\\Pranav\\OneDrive\\Desktop\\New folder\\File\\pranav.txt");
